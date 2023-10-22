@@ -10764,3 +10764,7 @@ img.ft_icon {
 .time-count:last-child:before {
   display: none;
 }
+
+.count_down_sec {
+  padding: 90px 0;
+}
