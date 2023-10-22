@@ -10710,3 +10710,57 @@ img.ft_icon {
 .choose-item-two .choose-content {
   width: 77%;
 }
+
+/******count down timer*********/
+.coming-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px 75px;
+}
+.time-count {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: var(--tg-white);
+  border-radius: 5px;
+  min-width: 110px;
+  color: var(--tg-black);
+  font-weight: 500;
+  font-size: 14px;
+  padding: 15px;
+  position: relative;
+  line-height: 1.4;
+}
+.time-count span {
+  line-height: 0.9;
+  font-size: 40px;
+  background-color: #0b201a;
+
+  font-weight: 700;
+  color: #fff;
+  font-family: var(--tg-heading-font-family);
+  display: block;
+  margin-bottom: 5px;
+}
+.time-count::after,
+.time-count::before {
+  content: "";
+  position: absolute;
+  right: -35px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--tg-white);
+  opacity: 0.3;
+}
+.time-count::after {
+  right: -45px;
+}
+.time-count:last-child:after,
+.time-count:last-child:before {
+  display: none;
+}
