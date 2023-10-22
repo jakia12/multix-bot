@@ -10768,3 +10768,9 @@ img.ft_icon {
 .count_down_sec {
   padding: 90px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .choose-item {
+    margin-bottom: 30px;
+  }
+}
