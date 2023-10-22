@@ -4329,7 +4329,7 @@ h6 a {
 }
 .section-header--max50 {
   max-inline-size: 50ch;
-  margin: 0 auto 48px auto;
+  margin: 0 auto 60px auto;
 }
 @media (max-width: 767px) {
   .section-header--max50 {
@@ -7666,9 +7666,9 @@ textarea:focus-within {
   transition: all 0.3s ease-out;
 }
 .service__thumb-inner {
-  border-radius: 99px;
+  /* border-radius: 99px;
   background-color: var(--wh-color);
-  box-shadow: 0px 8px 24px rgba(12, 52, 91, 0.04);
+  box-shadow: 0px 8px 24px rgba(12, 52, 91, 0.04); */
 }
 .service__content h5 {
   -webkit-transition: all 0.3s ease-out;
@@ -9422,7 +9422,7 @@ textarea:focus-within {
 .faq__shape-item--1 {
   width: 40px;
   top: 1%;
-  left: 6%;
+  left: 4%;
   -webkit-animation: floating 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
     alternate;
   -moz-animation: floating 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
@@ -9461,8 +9461,8 @@ textarea:focus-within {
 }
 @media (min-width: 1400px) {
   .faq__shape-item--1 {
-    top: 11%;
-    left: 17%;
+    top: 8%;
+    left: 10%;
   }
 }
 .faq__shape-item--2 {
@@ -10560,4 +10560,26 @@ html[data-bs-theme="dark"] .partner--gradient::after {
 .banner_bg {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), #002a1e),
     url("/assets/images/banner/home1/bg.png");
+}
+
+/*****tokenomics section****/
+.tokenomics_sec {
+  padding: 90px 0;
+  background: linear-gradient(#00150fe4, #00150fe9), url(/tokenbg.jpg);
+}
+
+h3.token_info {
+  border-bottom: 2px solid #fff;
+  width: 204px;
+  margin-bottom: 35px;
+}
+
+img.ft_icon {
+  width: 96px;
+}
+
+.footer__end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
