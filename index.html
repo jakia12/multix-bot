@@ -236,7 +236,7 @@ span {
     <!-- ===============>> Banner section end here <<================= -->
 
     <!-- ===============>> count down section start here <<================= -->
-<section class="count_down_sec">
+<!-- <section class="count_down_sec">
    <div class="section-header section-header--max65">
         <h2 class="mb-15 mt-minus-5">
           Launching <span> MultiX In </span> 
@@ -247,7 +247,7 @@ span {
          <div class="coming-time" data-countdown="2023/10/26 1:00:00"></div>
                                 </div>
   </div>
-</section>
+</section> -->
 
 <div class="countdown">
   <div class="section-header section-header--max65">
@@ -255,10 +255,10 @@ span {
       Launching <span> MultiX In </span>
     </h2>
   </div>
-  <div id="timer">
-    <div>
+  <!-- <div id="timer">
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
       <span id="days">00</span>
-      <span>Days</span>
+      <span style="font-size: small;">Days</span>
     </div>
     <div>
       <span id="hours">00</span>
@@ -272,6 +272,12 @@ span {
       <span id="seconds">00</span>
       <span>Seconds</span>
     </div>
+  </div> -->
+  <div id="timer" class="coming-time">
+    <div class="time-count day"><span id="days"></span>Days</div>
+    <div class="time-count hour"><span id="hours"></span>Hours</div>
+    <div class="time-count min"><span id="minutes"></span>Minute</div>
+    <div class="time-count sec"><span id="seconds"></span>Second</div>
   </div>
 </div>
 
